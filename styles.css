@@ -1,0 +1,222 @@
+/* General Reset */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  background: url('background2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Navigation */
+header {
+  background: rgb(200, 101, 147);
+  padding: 15px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background:rgb(215, 144, 178)
+
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.btn {
+  background: #3498db;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #2980b9;
+}
+
+/* Services Section */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+.service-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.service h3 {
+  color: #3498db;
+}
+
+/* Team Section */
+.team {
+  padding: 60px 20px;
+  text-align: center;
+  background: #ffe6f2
+}
+.team-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.member {
+  width: 220px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.member h3 {
+  margin: 10px 0 5px;
+  color: #2c3e50;
+}
+.member p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: rgb(215, 144, 178)
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #34495e;
+}
+
+/* Footer */
+footer {
+  background:#2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+/* Logo styling */
+.logo img {
+  height: 50px;   /* Adjust size */
+  margin-right: 20px;
+}
+
+/* Navigation update */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/* Services Section */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+.servicesbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.member {
+  width: 220px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.services img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.services h3 {
+  margin: 10px 0 5px;
+  color: #2c3e50;
+}
+.services p {
+  color: #777;
+  font-size: 14px;
+}
+#operation {
+  background-color: #ffe6f2; /* soft pink background */
+  padding: 60px 0;
+  text-align: center;
+}
+
+#operation h2 {
+  color: #ff3399; /* bold pink heading */
+}
+
+#operation h4 {
+  color: #cc0066; /* darker pink for subheadings */
+  margin-top: 20px;
+}
+
+#operation p {
+  color: #660033; /* deep pink text */
+}
+
